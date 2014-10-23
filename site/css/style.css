@@ -25,7 +25,7 @@ object {
 
 /* type hierarchy- change for your project */
 h1 {
-  font-size: 3em; /* 48px */
+  font-size: 1.75em; /* 48px */
 }
 
 h2 {
@@ -97,7 +97,7 @@ max-width: 350px;
     padding: 40px; 0;
     margin-bottom: 20px;
 }
-#totalwrapper {
+.totalwrapper {
 
     height: 800px;
 
@@ -126,8 +126,11 @@ margin-bottom: 20px;
 }
 
 @media (max-width: 720px) {
-.content-column {
-width: 100%;
+.MainContent {
+
+width: 400px;
+float: left;
+margin: 0 auto;
 border-bottom: 1px solid #6c7a89;
  }
 }
