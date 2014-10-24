@@ -26,6 +26,7 @@ object {
 /* type hierarchy- change for your project */
 h1 {
   font-size: 1.75em; /* 48px */
+    text-align: center;
 }
 
 h2 {
@@ -69,9 +70,8 @@ margin-top: 0px;
     background-attachment: fixed;
     
        position: relative;
-    min-width: 1024px;
-    min-height: 768px;
-    height: 100%;
+    min-width: 100%;
+    max-height: 768px;
 }
 
 .logo {
@@ -97,10 +97,9 @@ max-width: 350px;
     padding: 40px; 0;
     margin-bottom: 20px;
 }
-.totalwrapper {
 
-    height: 800px;
-
+ 
+ }
 
 
 }
@@ -112,22 +111,31 @@ max-width: 350px;
 	position: relative; 
 	min-height: 99%;
 }
-
+ 
 .MainContent
 {
 width: 400px;
-height: 200px;
-background:rgba(255,255,255, 0.8);
-display: block;
+height: 150px;
+background: url(../img/chalkboard.png);
+background-size:cover;
+display: inline;
 float: right;
 clear: both;
 margin-bottom: 20px;
 
 }
 
-@media (max-width: 720px) {
-.MainContent {
+#Mainbody {
+    background: #eeb;
+    opacity:0.6; 
+    height: 30px;
+    width:20px;
+  
 
+}
+
+@media (max-width: 1001px) {
+.MainContent {
 width: 400px;
 float: left;
 margin: 0 auto;
@@ -139,17 +147,8 @@ border-bottom: 1px solid #6c7a89;
 text-align: center;
     font-size: 10px;
     margin: 20px;
-
-}
-
-.chalkboard{
-    background:black;
-    background-size: 100%;
-height: 95%;
- width: 100%;
-    background-size: contain;
-   margin: 0 auto;
-    
+    background: #eee;
+    padding: 10px;
 
 }
 
@@ -217,11 +216,11 @@ text-align: center;
 }
 
 .footer {
-	position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;
-   background:#6cf;
+ position: absolute;
+    bottom: 0;
+    background: #eee;
+    width: 100%;
+    
 }
 
 
